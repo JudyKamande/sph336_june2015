@@ -25,7 +25,7 @@
 	puts ("Underweight: \t less than 18.5 \n");
 	puts ("Normal: \t between 18.5 and 24.9 \n");
 	puts ("Overweight: \t between 25 and 29.9 \n");
-	puts ("Obese: 30 or greater \n\ _____________ n");
+	puts ("Obese: 30 or greater \n _____________ \n");
 
 // Beginning if-function 
 
@@ -38,7 +38,7 @@
   if (BMI >= 25) && (BMI <= 29.9) {
 	puts ("You are OVERWEIGHT"); }
 
- if (BMI >= 30)) {
+ if (BMI >= 30) {
 	puts ("You are OBESE"); }
 
 return 0;

@@ -1,3 +1,5 @@
 This is a repo for embedded systems programming lab examples and tutorials for desktop C and ARM C programming 
 
 The Freescale TWR-K60N512 KIT is used as the ARM-based target board.
+
+All Questions and Examples for revision purposes have been sourced from Deitel & Deitel 7th Ed., "C How To Program". 

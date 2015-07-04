@@ -1,0 +1,57 @@
+// Algorithm: Decimal to Binary LED
+// by Judy Kamande
+
+/* _______________________________________ * /
+
+//
+
+output: L1, L2, L3, L4
+(L1 = LSB) and (L4 = MSB)
+
+input: integer z 
+(z >=0) and (z<=9)
+
+read: int z (base 10)
+execute: int z (base 2)
+
+
+//Control structure - LED blinking function
+
+	if z = 0,
+	L1 = 0, L2 = 0, L3 = 0, L4 = 0;
+
+	if z = 1,
+	L1 = 1, L2 = 0, L3 = 0, L4 = 0;
+
+	if z = 2,
+	L1 = 0, L2 = 1, L3 = 0, L4 = 0;
+
+	if z = 3,
+	L1 = 1, L2 = 1, L3 = 0, L4 = 0;
+
+	if z = 4,
+	L1 = 0, L2 = 0, L3 = 1, L4 = 0;
+
+	if z = 5,
+	L1 = 1, L2 = 0, L3 = 1, L4 = 0;
+
+	if z = 6,
+	L1 = 0, L2 = 1, L3 = 1, L4 = 0;
+
+	if z = 7,
+	L1 = 1, L2 = 1, L3 = 1, L4 = 0;
+
+	if z = 8,
+	L1 = 0, L2 = 0, L3 = 0, L4 = 1;
+
+	if z = 9,
+	L1 = 1, L2 = 0, L3 = 0, L4 = 1;
+
+
+	else
+	L1 = 1, L2 = 1, L3 = 1, L4 = 1;
+
+	endif.
+
+return z (base 2).
+

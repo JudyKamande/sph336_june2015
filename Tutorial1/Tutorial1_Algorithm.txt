@@ -5,12 +5,15 @@
 
 // Declaration of variables, standards
 
+// LED variable definitions
 output: L1, L2, L3, L4
 (L1 = LSB) and (L4 = MSB)
 
+// Input variable definitions
 input: integer z 
 (z >=0) and (z<=9)
 
+// Input variable data type conversion
 read: int z (base 10)
 execute: int z (base 2)
 

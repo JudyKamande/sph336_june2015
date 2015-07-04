@@ -21,40 +21,39 @@ execute: int z (base 2)
 //Control structure - LED blinking function
 
 	if z = 0,
-	L1 = 0, L2 = 0, L3 = 0, L4 = 0;
+	L1 = 0, L2 = 0, L3 = 0, L4 = 0;		// 4-bit LED light binary equivalent for 0 base 2
 
 	if z = 1,
-	L1 = 1, L2 = 0, L3 = 0, L4 = 0;
-
+	L1 = 1, L2 = 0, L3 = 0, L4 = 0		// 4-bit LED light binary equivalent for 1 base 2
 	if z = 2,
-	L1 = 0, L2 = 1, L3 = 0, L4 = 0;
+	L1 = 0, L2 = 1, L3 = 0, L4 = 0;		// 4-bit LED light binary equivalent for 2 base 2
 
 	if z = 3,
-	L1 = 1, L2 = 1, L3 = 0, L4 = 0;
+	L1 = 1, L2 = 1, L3 = 0, L4 = 0;		// 4-bit LED light binary equivalent for 3 base 2
 
 	if z = 4,
-	L1 = 0, L2 = 0, L3 = 1, L4 = 0;
+	L1 = 0, L2 = 0, L3 = 1, L4 = 0;		// 4-bit LED light binary equivalent for 4 base 2
 
 	if z = 5,
-	L1 = 1, L2 = 0, L3 = 1, L4 = 0;
+	L1 = 1, L2 = 0, L3 = 1, L4 = 0		// 4-bit LED light binary equivalent for 5 base 2
 
 	if z = 6,
-	L1 = 0, L2 = 1, L3 = 1, L4 = 0;
+	L1 = 0, L2 = 1, L3 = 1, L4 = 0		// 4-bit LED light binary equivalent for 6 base 2
 
 	if z = 7,
-	L1 = 1, L2 = 1, L3 = 1, L4 = 0;
+	L1 = 1, L2 = 1, L3 = 1, L4 = 0;		// 4-bit LED light binary equivalent for 7 base 2
 
 	if z = 8,
-	L1 = 0, L2 = 0, L3 = 0, L4 = 1;
+	L1 = 0, L2 = 0, L3 = 0, L4 = 1;		// 4-bit LED light binary equivalent for 8 base 2
 
 	if z = 9,
-	L1 = 1, L2 = 0, L3 = 0, L4 = 1;
+	L1 = 1, L2 = 0, L3 = 0, L4 = 1;		// 4-bit LED light binary equivalent for 9 base 2
 
 
 	else
-	L1 = 1, L2 = 1, L3 = 1, L4 = 1;
+	L1 = 1, L2 = 1, L3 = 1, L4 = 1;		// Control binary equivalent for Wrong Entry where (z>0) or (z>9)
 
-	endif.
+	endif.		// End of If-Control function
 
-return z (base 2).
+return z (base 2).	// Decoded Return value
 

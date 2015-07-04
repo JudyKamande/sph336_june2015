@@ -3,7 +3,7 @@
 
 /* _______________________________________ * /
 
-//
+// Declaration of variables, standards
 
 output: L1, L2, L3, L4
 (L1 = LSB) and (L4 = MSB)
